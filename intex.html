@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title>
+Family tree
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: black;
+        }
+        nav {
+            color: blue;
+            width: 20%;
+            height: 30px;
+            border: blanchedalmond solid 2px;
+            background-color: azure; 
+            border-radius: 10px;
+            padding: 16px;
+            position: relative;
+            left: 1000px;
+        }
+        a {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 17px;
+          text-decoration: underline;
+        }
+
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: crimson;
+        }
+
+        h1 {
+            background-color: blue;
+            color: aquamarine;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            text-align: center;
+            border: pink solid 5px;
+            margin-left: 100px;
+        }
+        #kare {
+            border: purple solid 5px;
+            background-color: aquamarine;
+            border-radius: 20px;
+            padding: 30px;
+            width: 80%;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        td {
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: brown;
+            border: wheat solid 2px
+        }
+        th {
+            color:midnightblue;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: x-large;
+
+        }
+        #form {
+        border: white solid 3px;
+        background-color: yellow;
+        padding: 10px;
+        position: relative;
+        left: 400px;
+        top: 180px;
+        width: 300px;
+        }
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+        @media screen and (max-width: 500px){
+         body {
+            background-color: bisque;
+         }   
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Page</a> | <a href="#">About us</a> | <a href="#">Contact</a>
+    </nav>
+    <h1>FAMILY TREE </h1>
+    <table id="kare">
+        <tr><th>Name-Surname</th><th>Country</th><th>Age</th><th>Gender</tr>
+         <tr><td>Selman Bulgu</td><td>Turkey</td><td>57</td><td>Man</td></tr>   
+         <tr><td>Nesibe Bulus</td><td>Turkey</td><td>49</td><td>Woman</td></tr>   
+         <tr><td>Sumeyra Balat</td><td>Turkey</td><td>30</td><td>Woman</td></tr>   
+         <tr><td>U.U Esmez</td><td>Turkey</td><td>29</td><td>Woman</td></tr>   
+         <tr><td>Ennes Bozkir</td><td>Turkey</td><td>27</td><td>Man</td></tr> 
+        </table>
+        <div id="form">
+        <form>
+        <table>
+            <tr><td>Name-Surname</td><td><input type="text"></td></tr>
+            <tr><td>Age</td><td><input type="number"></td></tr>
+            <tr><td><input type="submit"><input type="reset"></td></tr>
+        </table>
+        </form>
+        </div>
+
+
+</body>
